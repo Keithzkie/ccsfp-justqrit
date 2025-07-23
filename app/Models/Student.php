@@ -15,7 +15,7 @@ class Student extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'student_name', // This corresponds to your 'Student Name' input
+        'name', // This corresponds to your 'Student Name' input
         'student_id',   // This corresponds to your 'Student ID' input
         'course',
         'section',
